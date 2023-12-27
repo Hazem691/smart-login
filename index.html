@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body >
+    <section class="d-flex w-50 mx-auto my-5 p-5 flex-column justify-content-center align-items-center">
+        <div class="container w-100 mx-auto">
+            <h1 class="text-center ">Smart Login System</h1>
+            <div class="py-4 w-100 mx-auto">
+                <div class="mb-3">
+                    <input type="text" id="emailLogin" placeholder="Enter your email" class="form-control bg-transparent text-light ">
+    
+                </div>
+                <div class="mb-3">
+                    <input type="password" id="passwordLogin" placeholder="Enter your password" class="form-control bg-transparent text-light">
+                </div>
+                <small class="text-danger d-none  " id="errormsg" >All inputs are required please make sure you fill all of them</small>
+                <small class="text-danger d-none  " id="errordata" >please check again on your email or password....</small>
+                <button class="btn w-100  my-3 " id="buttonlogin">Login</button>
+    
+                <div class="d-flex px-2 my-3">
+                    <p class="text-light">Don’t have an account?</p>
+                    <a href="signup.html" class="text-decoration-none text-light ps-1">Sign Up</a>
+                </div>
+
+                
+    
+            </div>
+        </div>
+    </section>
+    <script src="./js/login.js"></script>
+    <script src="./js/all.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

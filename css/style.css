@@ -1,0 +1,39 @@
+h1{
+    color:  rgb(23, 162, 184);
+}
+
+body{
+    background-color:  #394552;;
+}
+input::placeholder {
+    font-weight: bold;
+    opacity: 0.8;
+   
+  }
+  
+.navbar{
+    box-shadow: -1px -1px 57px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px -1px 57px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px -1px 57px 0px rgba(0,0,0,0.75);
+
+}
+
+
+section{
+    box-shadow: -1px -1px 57px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px -1px 57px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px -1px 57px 0px rgba(0,0,0,0.75);
+}
+.btn{
+    cursor: pointer; 
+    border: 1px solid skyblue; 
+    background-color: transparent; 
+    
+    color: skyblue;
+}
+
+.btn:hover{
+    background-color: skyblue;
+    color: white;
+
+}
