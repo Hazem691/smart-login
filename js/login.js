@@ -48,6 +48,6 @@ function inputsChecker(email, password) {
 
 
 
-buttonlogin.addEventListener('click',function(){
+buttonlogin.addEventListener('click',()=>{
     login() ;
 })
